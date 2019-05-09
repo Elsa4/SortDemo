@@ -41,6 +41,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         self.setSortClosure()
         print("dshfjkshfj")
+        sfjksfhkj
     }
     
     //MARK: - Private Method
