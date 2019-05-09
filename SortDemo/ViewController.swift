@@ -40,6 +40,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setSortClosure()
+        print("dshfjkshfj")
     }
     
     //MARK: - Private Method

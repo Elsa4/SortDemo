@@ -53,6 +53,7 @@
 		0071929021FAE32800A287DA /* SortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortView.swift; sourceTree = "<group>"; };
 		0071929321FAE5BF00A287DA /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		0071929521FAE68600A287DA /* SortClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortClass.swift; sourceTree = "<group>"; };
+		F1E17ECA2284656400522627 /* SortDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SortDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +139,7 @@
 			children = (
 				0071929321FAE5BF00A287DA /* Sort.swift */,
 				0071929521FAE68600A287DA /* SortClass.swift */,
+				F1E17ECA2284656400522627 /* SortDemo-Bridging-Header.h */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -210,6 +212,7 @@
 				TargetAttributes = {
 					0071925E21FAE2DE00A287DA = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 					};
 					0071927221FAE2E000A287DA = {
 						CreatedOnToolsVersion = 10.0;
@@ -452,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SortDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,6 +464,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nio.com.SortDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SortDemo/Sort/SortDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -469,6 +475,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SortDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -477,6 +484,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nio.com.SortDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SortDemo/Sort/SortDemo-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
