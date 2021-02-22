@@ -25,6 +25,8 @@ class SortView: UIView {
         let weight = frame.height / (self.superview?.frame.height)!
         let color = UIColor(hue: weight, saturation: 1, brightness: 1, alpha: 1)
         self.backgroundColor = color
+        print("master1")
+        print("master2")
     }
     
     func updateHeight(height: CGFloat) {

@@ -123,6 +123,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             self.sortViews.append(sortView)
             CGRect(origin: CGPoint.zero, size: CGSize())
             print("master1")
+            print("master2")
         }
     }
     
