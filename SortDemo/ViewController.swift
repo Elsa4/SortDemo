@@ -122,6 +122,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
             self.displayView.addSubview(sortView)
             self.sortViews.append(sortView)
             CGRect(origin: CGPoint.zero, size: CGSize())
+            print("master1")
         }
     }
     
