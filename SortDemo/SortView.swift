@@ -14,7 +14,7 @@ class SortView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.frame = frame
-        print("master1")
+        print("master3")
     }
     
     override func layoutSubviews() {
